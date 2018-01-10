@@ -1,0 +1,387 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Regenerate Thumbnails\n"
+"POT-Creation-Date: 2018-01-10 15:40+0800\n"
+"PO-Revision-Date: 2018-01-10 22:24+0800\n"
+"Last-Translator: didi2050 <7564945@qq.com>\n"
+"Language-Team: didi2050 <7564945@qq.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: regenerate-thumbnails.php\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-regeneratethumbnails-regenerator.php:62
+msgid "No attachment exists with that ID."
+msgstr "该 ID 不存在附件。"
+
+#: includes/class-regeneratethumbnails-regenerator.php:73
+msgid "This item is not an attachment."
+msgstr "此项目不是附件。"
+
+#: includes/class-regeneratethumbnails-regenerator.php:84
+msgid ""
+"This attachment is a site icon and therefore the thumbnails shouldn't be "
+"touched."
+msgstr "此附件是一个站点图标, 因此不应触及缩略图。"
+
+#: includes/class-regeneratethumbnails-regenerator.php:137
+#, php-format
+msgid ""
+"The fullsize image file cannot be found in your uploads directory at <code>"
+"%s</code>. Without it, new thumbnail images can't be generated."
+msgstr ""
+"在 <code>%s</code> 的uploads目录中找不到全尺寸图片。如果没有它, 将无法生成新"
+"的缩略图图像。"
+
+#: includes/class-regeneratethumbnails-regenerator.php:543
+msgid "The current image editor cannot process this file type."
+msgstr "当前图像编辑器无法处理此文件类型。"
+
+#: includes/class-regeneratethumbnails-regenerator.php:559
+msgid "Unable to load the metadata for this attachment."
+msgstr "无法加载此附件的元数据。"
+
+#: includes/class-regeneratethumbnails-regenerator.php:671
+#, php-format
+msgid "%s (old)"
+msgstr ""
+
+#: includes/class-regeneratethumbnails-rest-controller.php:37
+msgid ""
+"Whether to only regenerate missing thumbnails. It's faster with this enabled."
+msgstr "是否只重新生成缺少的缩略图。启用此功能后, 速度会更快。"
+
+#: includes/class-regeneratethumbnails-rest-controller.php:42
+msgid "Whether to delete any old, now unregistered thumbnail files."
+msgstr "是否删除任何旧的、现在未注册的缩略图文件。"
+
+#: includes/class-regeneratethumbnails-rest-controller.php:47
+msgid ""
+"Whether to update the image tags in any posts that make use of this "
+"attachment."
+msgstr "是否在任何使用此附件的文章中更新图片标记。"
+
+#: includes/class-regeneratethumbnails-rest-controller.php:52
+msgid "The types of posts to update. Defaults to all public post types."
+msgstr "要更新的文章的类型。默认为所有公共文章类型。"
+
+#: includes/class-regeneratethumbnails-rest-controller.php:58
+msgid ""
+"Specific post IDs to update rather than any posts that use this attachment."
+msgstr "要更新的特定 文章 IDs, 而不是使用此附件的任何文章。"
+
+#: includes/class-regeneratethumbnails-rest-controller.php:64
+msgid ""
+"Posts to process per loop. This is to control memory usage and you likely "
+"don't need to adjust this."
+msgstr "每个循环处理的文章。这是为了控制内存的使用, 你可能不需要调整这一点。"
+
+#: includes/class-regeneratethumbnails-rest-controller.php:254
+msgid "The page number requested is larger than the number of pages available."
+msgstr "数值大于允许的最大值。"
+
+#. Plugin Name of the plugin/theme
+#: regenerate-thumbnails.php:170 regenerate-thumbnails.php:222
+#: regenerate-thumbnails.php:311 regenerate-thumbnails.php:417
+#: regenerate-thumbnails.php:433 regenerate-thumbnails.php:457
+#: regenerate-thumbnails.php:479
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: regenerate-thumbnails.php:223 regenerate-thumbnails.php:328
+msgid "Loading…"
+msgstr "载入..."
+
+#: regenerate-thumbnails.php:224
+msgid "Skip regenerating existing correctly sized thumbnails (faster)."
+msgstr "跳过重新生成现有的正确大小的缩略图 (更快)。"
+
+#: regenerate-thumbnails.php:225
+msgid ""
+"Delete thumbnail files for old unregistered sizes in order to free up server "
+"space. You risk broken images if you do this so it's strongly recommended "
+"that you update the content of posts to reduce the risk."
+msgstr ""
+"删除旧的未注册大小的缩略图文件以释放服务器空间。如果您这样做, 您就有可能被破"
+"坏的图像, 因此强烈建议您更新帖子内容以降低风险。"
+
+#: regenerate-thumbnails.php:226
+msgid "<strong>{label}:</strong> {width}×{height} pixels ({cropMethod})"
+msgstr ""
+
+#: regenerate-thumbnails.php:227
+msgid ""
+"<strong>{label}:</strong> {width}×{height} pixels ({cropMethod}) "
+"<code>{filename}</code>"
+msgstr ""
+
+#: regenerate-thumbnails.php:228
+msgid ""
+"<strong>{label}:</strong> {width}×{height} pixels <code>{filename}</code>"
+msgstr ""
+
+#: regenerate-thumbnails.php:229
+msgid ""
+"<strong>{label}:</strong> {width}×{height} pixels (thumbnail would be larger "
+"than original)"
+msgstr ""
+
+#: regenerate-thumbnails.php:230
+msgid "cropped to fit"
+msgstr "裁剪至适合"
+
+#: regenerate-thumbnails.php:231
+msgid "proportionally resized to fit inside dimensions"
+msgstr "按比例调整大小以适合内部尺寸"
+
+#: regenerate-thumbnails.php:235
+#, php-format
+msgid ""
+"When you change WordPress themes or change the sizes of your thumbnails at "
+"<a href=\"%s\">Settings → Media</a>, images that you have previously "
+"uploaded to you media library will be missing thumbnail files for those new "
+"image sizes. This tool will allow you to create those missing thumbnail "
+"files for all images."
+msgstr ""
+"修改 WordPress 的主题或改变缩略图的大小<a href=\"%s\">设置 → 多媒体</a>, 以前"
+"上传到媒体库的图像将丢失这些新图像大小的缩略图文件。此工具将允许您为所有图像"
+"创建那些缺失的缩略图文件。"
+
+#: regenerate-thumbnails.php:239
+#, php-format
+msgid ""
+"To process a specific image, visit your media library and click the &quot;"
+"Regenerate Thumbnails&quot; link or button. To process multiple specific "
+"images, make sure you're in the <a href=\"%s\">list view</a> and then use "
+"the Bulk Actions dropdown after selecting one or more images."
+msgstr ""
+"要处理特定的图像, 请访问您的媒体库, 然后单击 &quot;Regenerate "
+"Thumbnails&quot; 链接或按钮。若要处理多个特定图像, 请确保您位于 <a href=\"%s"
+"\">列表视图</a>中, 然后在选择一个或多个图像之后使用 \"批量操作\" 下拉菜单。"
+
+#: regenerate-thumbnails.php:242
+msgid "Update the content of posts to use the new sizes."
+msgstr "更新文章内容以使用新的大小。"
+
+#: regenerate-thumbnails.php:243
+msgid "Regenerate Thumbnails For All Attachments"
+msgstr "为所有附件重新生成缩略图"
+
+#: regenerate-thumbnails.php:244
+msgid "Regenerate Thumbnails For All {attachmentCount} Attachments"
+msgstr "为所有 {attachmentCount} 附件重新生成缩略图"
+
+#: regenerate-thumbnails.php:245
+msgid "Regenerate Thumbnails For Featured Images Only"
+msgstr "仅为精选图像重新生成缩略图"
+
+#: regenerate-thumbnails.php:246
+msgid "Regenerate Thumbnails For The {attachmentCount} Featured Images Only"
+msgstr "仅为 {attachmentCount} 功能图像重新生成缩略图"
+
+#: regenerate-thumbnails.php:247
+msgid "Thumbnail Sizes"
+msgstr "缩略图尺寸"
+
+#: regenerate-thumbnails.php:248
+msgid "These are all of the thumbnail sizes that are currently registered:"
+msgstr "这些是当前注册的所有缩略图大小:"
+
+#: regenerate-thumbnails.php:249
+msgid "Alternatives"
+msgstr "替代选择"
+
+#: regenerate-thumbnails.php:250
+msgid ""
+"If you have <a href=\"{url-cli}\">command-line</a> access to your site's "
+"server, consider using <a href=\"{url-wpcli}\">WP-CLI</a> instead of this "
+"tool. It has a built-in <a href=\"{url-wpcli-regenerate}\">regenerate "
+"command</a> that works similarly to this tool but should be significantly "
+"faster since it has the advantage of being a command-line tool."
+msgstr ""
+"如果您有 <a href=\"{url-cli}\">command-line</a> 访问您的站点的服务器, 请考虑"
+"使用 <a href=\"{url-wpcli}\">WP-CLI</a> 而不是此工具。它有一个内置的<a href="
+"\"{url-wpcli-regenerate}\">regenerate command</a>, 它的工作原理类似于这个工"
+"具, 但应该大大加快, 因为它的优势是 command-line 工具。"
+
+#: regenerate-thumbnails.php:251
+msgid ""
+"Another alternative is to use the <a href=\"{url-photon}\">Photon</a> "
+"functionality that comes with the <a href=\"{url-jetpack}\">Jetpack</a> "
+"plugin. It generates thumbnails on-demand using WordPress.com's "
+"infrastructure. <em>Disclaimer: The author of this plugin, Regenerate "
+"Thumbnails, is an employee of the company behind WordPress.com and Jetpack "
+"but I would recommend it even if I wasn't."
+msgstr ""
+"另一种选择是使用 <a href=\"{url-jetpack}\">Jetpack</a>插件附带的<a href="
+"\"{url-photon}\">Photon</a>功能。它利用 WordPress 的基础设施, 按需生成缩略"
+"图。<em>免责声明: 这个插件的作者, Regenerate Thumbnails, 是公司的雇员在 "
+"WordPress.com 和Jetpack之后, 但我会推荐它, 即使我不是.</em>"
+
+#: regenerate-thumbnails.php:255
+msgid "Regenerate Thumbnails: {name} — WordPress"
+msgstr ""
+
+#: regenerate-thumbnails.php:256
+msgid "<strong>ERROR:</strong> {error}"
+msgstr ""
+
+#: regenerate-thumbnails.php:257
+msgid "<code>{filename}</code> {width}×{height} pixels"
+msgstr ""
+
+#: regenerate-thumbnails.php:258
+msgid "Preview"
+msgstr "预览"
+
+#: regenerate-thumbnails.php:259
+msgid ""
+"Update the content of posts that use this attachment to use the new sizes."
+msgstr "更新文章内容以使用新的大小。"
+
+#: regenerate-thumbnails.php:260
+msgid "Regenerating…"
+msgstr "再生..."
+
+#: regenerate-thumbnails.php:261
+msgid "Done! Click here to go back."
+msgstr "完成！点击此处返回。"
+
+#: regenerate-thumbnails.php:262
+msgid "Error Regenerating"
+msgstr "再生错误"
+
+#: regenerate-thumbnails.php:263
+msgid ""
+"There was an error regenerating this attachment. The error was: <em>{message}"
+"</em>"
+msgstr "再生此附件时出错。错误是: <em>{message}</em>"
+
+#: regenerate-thumbnails.php:264
+msgid ""
+"These are the currently registered thumbnail sizes, whether they exist for "
+"this attachment, and their filenames:"
+msgstr ""
+"这些是当前注册的缩略图大小, 无论它们是否存在于此附件, 以及它们的文件名:"
+
+#: regenerate-thumbnails.php:265
+msgid ""
+"The attachment says it also has these thumbnail sizes but they are no longer "
+"in use by WordPress. You can probably safely have this plugin delete them, "
+"especially if you have this plugin update any posts that make use of this "
+"attachment."
+msgstr ""
+"附件: 它也有这些缩略图的大小, 但他们不再使用 WordPress。您可能安全地有这个插"
+"件删除他们, 特别是如果您有这个插件更新任何帖子, 使用此附件。"
+
+#: regenerate-thumbnails.php:268
+msgid "Errors Encountered"
+msgstr "遇到错误"
+
+#: regenerate-thumbnails.php:269
+msgid "Regeneration Log"
+msgstr "再生日志"
+
+#: regenerate-thumbnails.php:270
+msgid "Pause"
+msgstr "暂停"
+
+#: regenerate-thumbnails.php:271
+msgid "Resume"
+msgstr "重新开始; 继续"
+
+#: regenerate-thumbnails.php:272
+msgid "Regenerated {name}"
+msgstr "重新生成 {name}"
+
+#: regenerate-thumbnails.php:273
+msgid "Skipped Attachment ID {id} ({name}): {reason}"
+msgstr "跳过附件 ID {id} ({name}): {reason}"
+
+#: regenerate-thumbnails.php:274
+msgid "Skipped Attachment ID {id}: {reason}"
+msgstr "跳过附件 ID {id}: {reason}"
+
+#: regenerate-thumbnails.php:275
+msgid "All done in {duration}."
+msgstr "全部完成在 {duration}."
+
+#: regenerate-thumbnails.php:276
+msgid "{count} hours"
+msgstr "{count} 小时"
+
+#: regenerate-thumbnails.php:277
+msgid "{count} minutes"
+msgstr "{count} 分钟"
+
+#: regenerate-thumbnails.php:278
+msgid "{count} seconds"
+msgstr "{count} 秒"
+
+#: regenerate-thumbnails.php:279
+msgid ""
+"Unable to fetch a list of attachment IDs to process from the WordPress REST "
+"API. You can check your browser's console for details."
+msgstr ""
+"无法从 WordPress 的 REST API 中获取要处理的附件 IDs 列表。您可以查看浏览器的"
+"控制台以了解详细信息。"
+
+#: regenerate-thumbnails.php:289
+#, php-format
+msgid "Regenerate Thumbnails For The %d Selected Attachments"
+msgstr "为 %d 选定的附件重新生成缩略图"
+
+#: regenerate-thumbnails.php:315
+#, php-format
+msgid ""
+"This plugin requires WordPress 4.7 or newer. You are on version %1$s. Please "
+"<a href=\"%2$s\">upgrade</a>."
+msgstr ""
+"这个插件需要 WordPress 4.7 或更新。您的版本 %1$s.  请 <a href=\"%2$s\">升级</"
+"a>."
+
+#: regenerate-thumbnails.php:325
+msgid "This tool requires that JavaScript be enabled to work."
+msgstr "此工具要求启用 JavaScript 才能工作。"
+
+#: regenerate-thumbnails.php:354
+msgid ""
+"This tool won't be able to do anything because your server doesn't support "
+"image editing which means that WordPress can't create thumbnail images. "
+"Please ask your host to install the Imagick or GD PHP extensions."
+msgstr ""
+"此工具无法执行任何功能, 因为您的服务器不支持图像编辑, 这意味着 WordPress 无法"
+"创建缩略图。请让您的主机安装 Imagick 或 GD PHP 扩展。"
+
+#: regenerate-thumbnails.php:417 regenerate-thumbnails.php:433
+#: regenerate-thumbnails.php:457
+msgid "Regenerate the thumbnails for this single image"
+msgstr "重新生成此图像缩略图"
+
+#. Plugin URI of the plugin/theme
+msgid "https://alex.blog/wordpress-plugins/regenerate-thumbnails/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Regenerate the thumbnails for one or more of your image uploads. Useful when "
+"changing their sizes or your theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Alex Mills (Viper007Bond)"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://alex.blog/"
+msgstr ""
